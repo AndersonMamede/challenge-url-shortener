@@ -7,3 +7,29 @@
 body{
   font: normal 16px Roboto, Verdana;
 }
+
+.gray_bg{
+  background: #EEE;
+}
+
+.text_center{
+  text-align: center;
+}
+
+.section{
+  padding: 45px 10px;
+}
+
+.section_container{
+  margin: 0 auto;
+  max-width: 390px;
+}
+
+.section_title{
+  font-size: 32px;
+  font-weight: normal;
+  font-family: "Roboto Slab";
+  text-align: center;
+  text-transform: uppercase;
+  color: #AA1423;
+}

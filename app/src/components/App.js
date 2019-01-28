@@ -4,6 +4,7 @@ import Favicon from 'react-favicon';
 import favicon from '../favicon.ico';
 import HeaderBar from './HeaderBar';
 import HomePage from './HomePage';
+import Footer from './Footer';
 
 import getTopFive from './../services/getTopFive';
 
@@ -37,7 +38,7 @@ class App extends Component {
         <main>
           <HomePage topFive={this.state.topFive} totalHits={this.state.totalHits} />
         </main>
-        {/* <Footer /> */}
+        <Footer />
       </React.Fragment>
     );
   }

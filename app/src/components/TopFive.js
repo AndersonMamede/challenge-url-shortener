@@ -26,7 +26,7 @@ const TopFive = ({ itens }) => {
 
   return (
     <section className={styles.section}>
-      <h1 className={styles.title}>Top 5</h1>
+      <h1 className={styles.title}>TOP 5</h1>
       <SkeletonTheme color="#DDD" highlightColor="#FEFEFE">
         <table className={styles.data_table}>
           <tbody>

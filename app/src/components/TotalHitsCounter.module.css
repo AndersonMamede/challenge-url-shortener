@@ -1,0 +1,16 @@
+.counter{
+  display: inline-block;
+  padding: 3px 12px;
+  margin-top: 15px;
+  font-size: 32px;
+  font-family: "Roboto Slab";
+  border: 1px solid #D2D2D2;
+  border-radius: 3px;
+  background: #FFF;
+  color: #AA1423;
+}
+
+.observation{
+  margin-top: 7px;
+  color: #777;
+}

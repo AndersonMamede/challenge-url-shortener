@@ -10,7 +10,7 @@ const HomePage = ({ topFive, totalHits }) => (
   <React.Fragment>
     <FormUrlShortener />
     <TopFive itens={topFive} />
-    <TotalHitsCounter totalHits={totalHits}/>
+    <TotalHitsCounter totalHits={totalHits} />
   </React.Fragment>
 );  
 

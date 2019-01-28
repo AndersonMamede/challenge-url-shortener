@@ -13,6 +13,7 @@ class App extends Component {
 
     this.state = {
       topFive: null,
+      totalHits: 35713571,
     };
 
     this.loadTopFive = this.loadTopFive.bind(this);
@@ -33,7 +34,9 @@ class App extends Component {
       <React.Fragment>
         <Favicon url={favicon} />
         <HeaderBar />
-        <HomePage topFive={this.state.topFive} />
+        <main>
+          <HomePage topFive={this.state.topFive} totalHits={this.state.totalHits} />
+        </main>
         {/* <Footer /> */}
       </React.Fragment>
     );

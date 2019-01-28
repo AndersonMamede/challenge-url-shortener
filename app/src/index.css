@@ -17,7 +17,25 @@ body{
 }
 
 .section{
+  position: relative;
   padding: 50px 10px;
+}
+
+.section_white_triangle{
+  padding-top: 60px;
+}
+
+.section_white_triangle::before{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 50%;
+  margin-left: -40px;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 40px 37.5px 0 37.5px;
+  border-color: #FFF transparent transparent transparent;
 }
 
 .section_container{

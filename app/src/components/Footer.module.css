@@ -1,0 +1,16 @@
+.footer{
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding: 17px;
+  max-width: 650px;
+}
+
+.website{
+  font-size: 20px;
+  color: #AA1423;
+}
+
+.social_icon{
+  margin: 0 10px;
+}

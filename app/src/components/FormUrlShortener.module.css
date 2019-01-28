@@ -1,0 +1,98 @@
+.form{
+  position: relative;
+  width: 100%;
+  height: calc(100vh - 150px);
+  min-height: 275px;
+  font-size: 18px;
+  text-align: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: #FFF;
+}
+
+.form_content{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 550px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 15px;
+}
+
+.title{
+  font-size: 36px;
+  font-family: "Roboto Slab";
+}
+
+.description{
+  margin-top: 20px;
+}
+
+.input_container{
+  position: relative;
+  margin-top: 40px;
+  padding-bottom: 10px;
+}
+
+.input_wrapper{
+  padding-right: 125px;
+}
+
+.input{
+  padding: 10px 0;
+  width: 100%;
+  font: inherit;
+  border: none;
+  border-bottom: 2px solid #FF6E14;
+  outline: none;
+  background: transparent;
+  color: #FFF;
+}
+
+.input::-webkit-input-placeholder{ font: inherit; color: #FF6E14; }
+.input::-moz-placeholder{ font: inherit; color: #FF6E14; }
+.input:-ms-input-placeholder{ font: inherit; color: #FF6E14; }
+.input:-moz-placeholder{ font: inherit; color: #FF6E14; }
+
+.submit{
+  position: absolute;
+  top: 2px;
+  right: 0;
+  padding: 10px 15px;
+  text-transform: uppercase;
+  font: inherit;
+  font-weight: 700;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background: #FF6E14;
+  color: #FFF;
+}
+
+@media(max-width: 550px){
+  .form_content{
+    left: 0;
+    transform: translate(0, -50%);
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+}
+
+@media(max-width: 400px){
+  .input_wrapper{
+    padding-right: 0;
+  }
+
+  .input_container{
+    margin-top: 20px;
+  }
+
+  .submit{
+    position: relative;
+    top: 0;
+    margin-top: 10px;
+  }
+}

@@ -1,0 +1,45 @@
+.section{
+  padding: 45px 10px;
+  margin: 0 auto;
+  max-width: 390px;
+}
+
+.title{
+  font-size: 32px;
+  font-weight: normal;
+  font-family: "Roboto Slab";
+  text-transform: uppercase;
+  text-align: center;
+  color: #AA1423;
+}
+
+.data_table{
+  margin-top: 10px;
+  width: 100%;
+  border: none;
+  border-collapse: collapse;
+}
+
+.data_table td{
+  padding: 10px 0;
+  border-bottom: 1px solid #EEE;
+}
+
+.data_table tr:last-child td{
+  border-bottom: none;
+}
+
+.item_url{
+  text-decoration: none;
+  font-weight: 700;
+  color: #AA1423;
+}
+
+.item_url:hover{
+  text-decoration: underline;
+}
+
+.item_count{
+  text-align: right;
+  color: #777;
+}

@@ -4,7 +4,7 @@ import styles from './FormUrlShortener.module.css';
 import ButtonShortenUrl from './ButtonShortenUrl';
 import ButtonCopy from './ButtonCopy';
 
-const backgroundImage = `url('${process.env.PUBLIC_URL}/assets/background-home.jpg')`;
+const formBackground = `url('${process.env.PUBLIC_URL}/assets/background-home.jpg')`;
 const resetIcon = `url('${process.env.PUBLIC_URL}/assets/reset.png')`;
 
 class FormUrlShortener extends React.Component {
@@ -46,7 +46,7 @@ class FormUrlShortener extends React.Component {
 
   render() {
     return (
-      <form className={styles.form} style={{ backgroundImage }} onSubmit={this.handleSubmit}>
+      <form className={styles.form} style={{ backgroundImage: formBackground }} onSubmit={this.handleSubmit}>
         <div className={styles.form_content}>
           <h1 className={styles.title}>Shorten your links</h1>
           <p className={styles.description}>

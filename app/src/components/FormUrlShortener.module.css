@@ -47,6 +47,11 @@
 .input:-moz-placeholder{ font: inherit; color: #FF6E14; }
 
 .input[readonly]{
+  color: #FFF;
+}
+
+.input[readonly],
+.button_copy{
   -webkit-animation: fadeIn 2s;
   -moz-animation: fadeIn 2s;
   -ms-animation: fadeIn 2s;
@@ -58,10 +63,6 @@
 .button_copy{
   width: 115px;
   vertical-align: middle;
-}
-
-.button_copy{
-  animation: fadeIn 2s;
 }
 
 @keyframes fadeIn {

@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Favicon from 'react-favicon';
 
 import favicon from '../favicon.ico';
+import ProjectBadge from './ProjectBadge';
 import HeaderBar from './HeaderBar';
 import HomePage from './HomePage';
 import Footer from './Footer';
@@ -34,6 +35,7 @@ class App extends Component {
     return (
       <React.Fragment>
         <Favicon url={favicon} />
+        <ProjectBadge url="https://github.com/AndersonMamede/challenge-url-shortener" />
         <HeaderBar />
         <main>
           <HomePage topFive={this.state.topFive} totalHits={this.state.totalHits} />

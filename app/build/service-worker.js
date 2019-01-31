@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/challenge-url-shortener/app/build/precache-manifest.c792970296ab2b7739b546655127d6a2.js"
+  "/challenge-url-shortener/app/build/precache-manifest.44899075b156f7179dce8cf00c5aa6ae.js"
 );
 
 workbox.clientsClaim();

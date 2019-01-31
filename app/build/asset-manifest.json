@@ -1,14 +1,14 @@
 {
-  "main.css": "/challenge-url-shortener/app/build/static/css/main.fa55845e.chunk.css",
-  "main.js": "/challenge-url-shortener/app/build/static/js/main.4e263e03.chunk.js",
-  "main.js.map": "/challenge-url-shortener/app/build/static/js/main.4e263e03.chunk.js.map",
-  "static/js/1.489d47c5.chunk.js": "/challenge-url-shortener/app/build/static/js/1.489d47c5.chunk.js",
-  "static/js/1.489d47c5.chunk.js.map": "/challenge-url-shortener/app/build/static/js/1.489d47c5.chunk.js.map",
+  "main.css": "/challenge-url-shortener/app/build/static/css/main.9c414dec.chunk.css",
+  "main.js": "/challenge-url-shortener/app/build/static/js/main.82ef7ead.chunk.js",
+  "main.js.map": "/challenge-url-shortener/app/build/static/js/main.82ef7ead.chunk.js.map",
+  "static/js/1.c966ca33.chunk.js": "/challenge-url-shortener/app/build/static/js/1.c966ca33.chunk.js",
+  "static/js/1.c966ca33.chunk.js.map": "/challenge-url-shortener/app/build/static/js/1.c966ca33.chunk.js.map",
   "runtime~main.js": "/challenge-url-shortener/app/build/static/js/runtime~main.102b6228.js",
   "runtime~main.js.map": "/challenge-url-shortener/app/build/static/js/runtime~main.102b6228.js.map",
   "static/media/favicon.ico": "/challenge-url-shortener/app/build/static/media/favicon.d7563a5f.ico",
-  "static/css/main.fa55845e.chunk.css.map": "/challenge-url-shortener/app/build/static/css/main.fa55845e.chunk.css.map",
+  "static/css/main.9c414dec.chunk.css.map": "/challenge-url-shortener/app/build/static/css/main.9c414dec.chunk.css.map",
   "index.html": "/challenge-url-shortener/app/build/index.html",
-  "precache-manifest.c792970296ab2b7739b546655127d6a2.js": "/challenge-url-shortener/app/build/precache-manifest.c792970296ab2b7739b546655127d6a2.js",
+  "precache-manifest.44899075b156f7179dce8cf00c5aa6ae.js": "/challenge-url-shortener/app/build/precache-manifest.44899075b156f7179dce8cf00c5aa6ae.js",
   "service-worker.js": "/challenge-url-shortener/app/build/service-worker.js"
 }

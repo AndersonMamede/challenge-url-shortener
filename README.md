@@ -11,7 +11,7 @@ This project was made to learn/practice new technologies and it was based on a r
 
 ## Challenge: URL shortener
 
-***Stack**: React, Axios*<br/>
+***Stack**: React*<br/>
 
 The challenge is to create a SPA (Single Page Application) to simulate an URL shortener application. Your main goal is to convert this layout into a functional prototype:
 

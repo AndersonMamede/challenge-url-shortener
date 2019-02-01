@@ -1,13 +1,12 @@
-This project was made to learn/practice new technologies and it was based on a real job challenge from a real company. **Main project:** [**`challenges-accepted`**](https://github.com/AndersonMamede/challenges-accepted)
-
-***My response:***
-&nbsp;&nbsp;
+> This project was developed by me while I learn and practice new technologies and it is based on a real job challenge from a real company.<br/>
+> **Companny:** [`Chaordic`](https://www.chaordic.com.br/)<br/>
+> **Original challenge description:** [`link`](https://github.com/chaordic/frontend-intern-challenge)<br/>
+> **My response:**
+&nbsp;
 [**`Run App/Demo`**](https://blog.andersonmamede.com.br/challenge-url-shortener/app/build/)
-&nbsp;&nbsp;
+&nbsp;
 [**`Source Code`**](https://github.com/AndersonMamede/challenge-url-shortener/tree/master/app)
-
-> *Companny: [Chaordic](https://www.chaordic.com.br/)*<br/>
-> *Original challenge description: [link](https://github.com/chaordic/frontend-intern-challenge)*<br/>
+> **Main project:** [**`challenges-accepted`**](https://github.com/AndersonMamede/challenges-accepted)
 
 ## Challenge: URL shortener
 
